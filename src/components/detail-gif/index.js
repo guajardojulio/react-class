@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link} from "wouter";
 
-export default function MyGif({ gifs }) {
+export default function DetalleMyGif({ gif }) {
   useEffect(() => {
     console.log("efecto ejecutado cuando se renderiza un gif");
   });
